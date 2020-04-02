@@ -1,7 +1,5 @@
-'use strict';
-
-import React from 'react';
-import { League } from './League.js';
+import React from 'react'
+import { League } from './League.js'
 
 export const Leagues = () => {    
     return (
@@ -21,5 +19,5 @@ export const Leagues = () => {
                 </tbody>
             </table>
         </div>
-    );
+    )
 }

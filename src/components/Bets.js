@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 export const Bets = (props) => {
       
     const bets = props.bets.map((bet, i) => 
-        <tr key={'bet_' + i}><td>{bet.match}</td><td>{bet.matchResult}</td><td>{bet.odd}</td><td>{bet.bet}</td></tr>
-    );
+        <tr key={'bet_' + i}><td>{bet.match}</td><td>{bet.matchresult}</td><td>{bet.odd}</td><td>{bet.bet}</td></tr>
+    )
   
     return (
         <div>
@@ -17,5 +17,5 @@ export const Bets = (props) => {
             </table>
             <div className="div-spacer"></div>
         </div>
-    );
+    )
 }
