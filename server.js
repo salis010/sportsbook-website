@@ -23,7 +23,7 @@ io.on('connection', function(socket){
 
 function getCompetitionData(socket) {
 	//read file from disk
-	fs.readFile("leagues.txt", 'utf-8', (err, data) => {
+	fs.readFile("backend/leagues.txt", 'utf-8', (err, data) => {
 		if(err) throw err
 		else {
 			console.log("leagues.txt read successfully")			
